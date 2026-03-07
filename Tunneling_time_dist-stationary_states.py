@@ -82,7 +82,7 @@ xc = (a+b)/2              # Threshold position for the trajectories (Here we set
 Max_t = 1e4               # Maximum time allowed for the simulation of a single trajectory.
 Min_x = -b                # Minimum position allowed for the simulation (Here the trajectory is not allowed to go beyond the left infinity wall of the DSW).
 
-file_name = 'times_DSW_multiprocessing_10^6' # Name of the file where the results will be saved.
+file_name = 'times_DSW_10^6' # Name of the file where the results will be saved.
 ##############################################################
 
 # Function to run a given number of simulations
@@ -117,4 +117,5 @@ if __name__ == "__main__":
     file.close()
 
     end_time = time.time() # Time of ending
+
     print(f"Time of execution: {end_time - start_time} seconds") 
