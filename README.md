@@ -106,7 +106,7 @@ Tunneling_time_dist-stationary_states.py
 
 Simulates tunneling between wells in a double square well potential (DSW) using the ground state wave function.
 
-In this case the drift field is time independent, since the system is in a stationary state, and equals the osmotic velocity $u(x)$.
+In this case the drift field is time independent, since the system is in a stationary state. For bound states, like the DSW, the drift equals the osmotic velocity $u(x)$.
 
 The forward drift is given analytically in each region of the potential:
 
@@ -115,6 +115,8 @@ The forward drift is given analytically in each region of the potential:
 - Right well
 
 Stochastic trajectories are simulated starting in the left well until they reach the right well.
+
+The program can be easily adapted to other potentials by simply changing the corresponding drift term defined by the function `D(x)`
 
 More details in: <https://arxiv.org/abs/2512.16168>
 
