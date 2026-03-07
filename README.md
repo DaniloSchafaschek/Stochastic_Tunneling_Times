@@ -130,7 +130,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Physicist-Danilo/Stochastic_Tunneling_Times.git
-cd Stochastic-Tunneling-Times
+cd Stochastic_Tunneling_Times
 ```
 
 # Example Analysis in Python
