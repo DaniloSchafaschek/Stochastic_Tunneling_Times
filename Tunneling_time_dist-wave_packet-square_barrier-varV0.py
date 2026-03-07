@@ -187,7 +187,7 @@ xc = a          # Position beyond that indicates that the particle has successfu
 Max_t = T[-1]   # Maximum time for the trajectory simulation.
 Min_x = X[0]    # Minimum position for the trajectory simulation.
 
-file_name = 'times_barrier_wave_packet_varV0_test' # Name of the file where the results will be saved.
+file_name = 'times_barrier_wave_packet_varV0' # Name of the file where the results will be saved.
 
 ###########################################################
 
@@ -223,4 +223,5 @@ if __name__ == "__main__":
     file.close()
 
     end_time = time.time() # Time of ending
+
     print(f"Tempo de execução: {end_time - start_time} segundos")
