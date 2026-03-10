@@ -131,7 +131,7 @@ A CSV file containing the simulated tunneling times.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Physicist-Danilo/Stochastic_Tunneling_Times.git
+git clone https://github.com/DaniloSchafaschek/Stochastic_Tunneling_Times.git
 cd Stochastic_Tunneling_Times
 ```
 
